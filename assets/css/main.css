@@ -1267,9 +1267,9 @@ section,
   color: var(--accent-color);
 }
 
-/*--------------------------------------------------------------
-# Starter Section Section
---------------------------------------------------------------*/
-.starter-section {
-  /* Add your styles here */
+/* Change hero background image on mobile devices */
+@media (max-width: 768px) {
+  .hero img {
+    content: url("../img/My_Personal_Photo.jpg"); 
+  }
 }
